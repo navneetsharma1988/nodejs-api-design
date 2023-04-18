@@ -1,5 +1,8 @@
 FROM node:lts-alpine3.16
 
+ENV STAGE=production
+ENV NODE_ENV=production
+
 # Create app directory
 WORKDIR /usr/src/app
 
